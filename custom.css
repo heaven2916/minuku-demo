@@ -19,7 +19,7 @@ a {
   background-color: transparent !important;
 }
 .navbar-light .navbar-nav .nav-link {
-  font-family: "Dosis", sans-serif;
+  font-family:monospace  , sans-serif;
   text-transform: uppercase;
   color: #171718 !important;
 }
@@ -54,7 +54,7 @@ a {
   margin-left: 15px;
 }
 .top-header {
-  background: #8ea2c6;
+  background: #6a8a20;
   height: 760px;
   overflow: hidden;
 }
@@ -71,6 +71,7 @@ a {
   position: absolute;
   left: 50%;
   bottom: -5rem;
+  border-radius: 24% 24% 24% 24%;
 }
 
 .main-container {
@@ -195,14 +196,14 @@ a {
   width: 350px;
 }
 .cloud1 {
-  background-image: url("/c1.png");
+  background-image: url("./c1.png");
   background-repeat: no-repeat;
   height: 160px;
   position: relative;
   width: 259px;
 }
 .cloud2 {
-  background-image: url("/c2.png");
+  background-image: url("./c2.png");
   background-repeat: no-repeat;
   height: 115px;
   position: relative;
@@ -216,7 +217,7 @@ a {
   width: 192px;
 }
 .cloud4 {
-  background-image: url("/c4.png");
+  background-image: url("./c4.png");
   background-repeat: no-repeat;
   height: 133px;
   position: relative;
@@ -254,15 +255,15 @@ a {
 }
 
 .head1 {
-  color: #171718;
+  color: #ffffff;
   font-family: "Dosis", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
 }
 
 .head-main {
-  color: #171718;
-  font-family: "Dosis", sans-serif;
+  color: #ffffff;
+  font-family:"fantasy" ; 
   text-transform: uppercase;
   font-weight: 800;
   font-size: 48px;
@@ -270,7 +271,7 @@ a {
 
 .para1 {
   color: #171718;
-  font-family: "Open Sans", sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero-content {
@@ -284,7 +285,7 @@ a {
   padding-right: 2.5rem;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
-  color: #171718;
+  color: #6a8a20;
   text-transform: uppercase;
   font-family: "Dosis", sans-serif;
   letter-spacing: 1px;
@@ -301,7 +302,7 @@ a {
   text-align: center;
 }
 .sec-div-child {
-  background: #ffffff;
+  background: #6a8a20;
   border-radius: 23px;
   height: 160px;
 }
@@ -337,7 +338,8 @@ p {
 }
 
 .contract-addy {
-  font-family: "Open Sans", sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  color:#ffffff;
 }
 .contract-addy span {
   display: block;
@@ -349,7 +351,7 @@ p {
 }
 .contract-addy .address {
   font-size: 14px;
-  background-color: #ffffff;
+  background-color: #6a8a20;
   display: inline-block;
   border-radius: 5px;
   padding-left: 15px;
